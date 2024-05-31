@@ -345,15 +345,10 @@ void play(string s)
 int main()
 {
 	string a;
-
 	cout << "nhap bieu thuc: " << endl;
-
 	getline(cin, a);
-
 	string s = test(a);
-
 	play(s);
-	
 	system("pause");
   return 0;
 }
